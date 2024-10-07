@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(41, 226, 164);
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+#head{
+    margin-bottom: 50px;
+    font-style: italic;
+    font-size: 40px;
+}
+button{
+    transition: background-color 0.10s  ease-in-out;
+    padding: 20px 45px;
+    background-color: transparent;
+    font-size: 20px;
+    border-radius: 45px;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    color: azure;
+    border: 5px solid white;
+
+}
